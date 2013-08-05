@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Repository itself addon xml info for installing the repository -->
+<addon id="repository.geertbongers" name="Geert Bongers's XBMC Addons" version="1.0.0" provider-name="GeertBongers">
+    <extension point="xbmc.addon.repository" name="Geert Bongers's XBMC Addon Repository">
+        <info compressed="false">https://github.com/geertbongers/xbmc_repository/raw/master/addons.xml</info>
+        <checksum>https://github.com/geertbongers/xbmc_repository/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/geertbongers/xbmc_repository/raw/master/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Geert Bongers's Addon Repository</summary>
+        <description>Download and install Geert Bongers's addon repository.</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+    </extension>
+</addon>
